@@ -1,6 +1,6 @@
-# Comment on _A chemical language model for molecular taste prediction_
+# Matters Arising: _A chemical language model for molecular taste prediction_
 
-This repo contains the code supporting the brief article "Comment on _A chemical language model for molecular taste prediction_".
+This repo contains the code supporting the brief article "Matters Arising: _A chemical language model for molecular taste prediction_".
 The original article can be found at DOI [10.1038/s41538-025-00474-z](https://doi.org/10.1038/s41538-025-00474-z).
 
 This code has been adapted from the source code provided on [GitHub](https://github.com/fart-lab/fart).
