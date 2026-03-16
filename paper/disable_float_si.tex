@@ -1,0 +1,15 @@
+% https://stackoverflow.com/a/58840456
+\usepackage{float}
+\let\origfigure\figure
+\let\endorigfigure\endfigure
+\renewenvironment{figure}[1][2] {
+    \expandafter\origfigure\expandafter[H]
+} {
+    \endorigfigure
+}
+
+% Number figures as S1, S2, etc. for supplementary material
+% also number pages as S1, S2, etc. for supplementary material
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thepage}{S\arabic{page}}
+
